@@ -1,0 +1,161 @@
+body{
+    font-family: 'Source Code Pro', sans-serif;
+    margin: 0; 
+    padding: 0;
+    height: 100%;
+    width: auto;
+}
+
+#ulnav li{
+    list-style: none; 
+}
+
+a:link{
+    text-decoration: none;
+    color: black;
+}
+
+a:visited{
+    color: black;
+}
+
+#ulnav il:visited{
+    color: black;
+}
+
+
+#ulnav li:hover{
+    color: lightgray;
+}
+
+
+#ulnav h1:hover{
+    color: black;
+}
+
+@media (max-width: 700px) {
+    .container {
+        margin: 0;
+        padding-bottom: 4%;
+        padding-top: 1%;
+        font-size: .6em;
+        text-align: center;
+    }
+
+    .container ul{
+        margin: 0;
+        padding: 0;
+    }
+
+    .containerimg {
+        max-width:  800px;
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+    
+    .containerimg img{
+        width: 100%;
+    }
+    
+    .social{
+    width: 6%;
+    padding: .2%;
+    }
+    
+    #keys{
+        display: none;
+    }
+}
+
+@media (min-width: 700px) {
+    ul{
+        padding: 0;
+        font-size: 1.5vw;
+        left: 15%;
+        width: 100%;
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    .container{
+        height: 100%;
+        width: 20%;
+        float: left;
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+    
+    .containerimg{
+        vertical-align: middle;
+        height: 100%;
+        width: 80%;
+        text-align: center;
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+    
+     .containerimg img{
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+        text-align: center;
+        width: 100%;
+    } 
+        
+    .social{
+        width: 16%;
+        padding-right: .6%;
+    }
+    
+    #emailtext{
+        font-size: .9em;
+        visibility: hidden;
+    }
+    
+    #keys{
+        width: 5%;
+        position: absolute;
+        bottom:0;
+        padding:.5%;
+    }
+}
+
+@media (min-width: 900px) {
+    ul{
+        padding: 0;
+        font-size: 1vw;
+        left: 15%;
+        width: 100%;
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    .container{
+        height: 100%;
+        width: 20%;
+        float: left;
+    }
+    
+    .containerimg{
+        vertical-align: middle;
+        height: 100%;
+        width: 80%;
+        text-align: center;
+        overflow-y: hidden;
+    }
+    
+     .containerimg img{
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+        text-align: center;
+        width: 100%;
+    }
+    
+        .social{
+        width: 10%;
+        padding-right: .6%;
+    }
+}
