@@ -1,9 +1,10 @@
-body{
+ body{
     font-family: 'Source Code Pro', sans-serif;
     margin: 0; 
     padding: 0;
     height: 100%;
-    width: auto;
+    width: 100%;
+    overflow-y: hidden;
 }
 
 #ulnav li{
@@ -35,20 +36,29 @@ a:visited{
 
 @media (max-width: 700px) {
     .container {
+        position: relative;
         margin: 0;
         padding-bottom: 4%;
         padding-top: 1%;
-        font-size: .6em;
+        font-size: 2vh;
         text-align: center;
+        height: 17%;
+        padding-bottom: 5%;
     }
-
+    
     .container ul{
         margin: 0;
         padding: 0;
     }
 
+    #section2{
+        height: 75%;
+        position: fixed;
+    }
+    
     .containerimg {
-        max-width:  800px;
+        position: relative;
+        height: 100%;
         overflow-x: hidden;
         overflow-y: hidden;
     }
@@ -58,104 +68,65 @@ a:visited{
     }
     
     .social{
-    width: 6%;
+    width: 4vh;
     padding: .2%;
     }
-    
-    #keys{
-        display: none;
-    }
+
 }
 
-@media (min-width: 700px) {
+@media (min-width: 701px) {
     ul{
+        margin: 0;
         padding: 0;
-        font-size: 1.5vw;
+        font-size: 1.4vw;
         left: 15%;
         width: 100%;
         position: relative;
-        top: 50%;
-        transform: translateY(-50%);
     }
 
-    .container{
-        height: 100%;
-        width: 20%;
-        float: left;
-        overflow-x: hidden;
-        overflow-y: hidden;
-    }
-    
-    .containerimg{
-        vertical-align: middle;
-        height: 100%;
-        width: 80%;
-        text-align: center;
-        overflow-x: hidden;
-        overflow-y: hidden;
-    }
-    
-     .containerimg img{
-        position: relative;
-        top: 50%;
-        transform: translateY(-50%);
-        text-align: center;
-        width: 100%;
-    } 
-        
-    .social{
-        width: 16%;
-        padding-right: .6%;
-    }
-    
-    #emailtext{
-        font-size: .9em;
-        visibility: hidden;
-    }
-    
-    #keys{
-        width: 5%;
+    #ulnav{
+        margin: 0;
+        padding: 0;
+        padding-bottom: 5%;
         position: absolute;
-        bottom:0;
-        padding:.5%;
-    }
-}
-
-@media (min-width: 900px) {
-    ul{
-        padding: 0;
-        font-size: 1vw;
-        left: 15%;
-        width: 100%;
-        position: relative;
         top: 50%;
+        -webkit-transform: translateY(-50%);
         transform: translateY(-50%);
     }
-
+    
     .container{
+        position: fixed;
         height: 100%;
         width: 20%;
-        float: left;
     }
     
-    .containerimg{
-        vertical-align: middle;
-        height: 100%;
-        width: 80%;
-        text-align: center;
-        overflow-y: hidden;
-    }
-    
-     .containerimg img{
-        position: relative;
-        top: 50%;
-        transform: translateY(-50%);
-        text-align: center;
-        width: 100%;
-    }
-    
-        .social{
+    .social{
         width: 10%;
         padding-right: .6%;
     }
-}
+
+    #section2{
+        height: 100%;
+        width: 80%;
+        position: fixed;
+        left: 20%;
+    }
+    
+    .containerimg{
+        float: right;
+        width: 100%;
+        text-align: center;
+        overflow-y: hidden;
+        position: absolute;
+        top: 50%;
+        -webkit-transform: translateY(-50%);
+        transform: translateY(-50%);
+    }
+    
+     .containerimg img{
+        position: relative;
+        text-align: center;
+        width: 100%;
+         
+    }
+    
