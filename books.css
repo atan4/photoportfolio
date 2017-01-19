@@ -34,7 +34,7 @@ a:visited{
     color: black;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 799px) {
     .container {
         position: relative;
         margin: 0;
@@ -74,7 +74,7 @@ a:visited{
 
 }
 
-@media (min-width: 701px) {
+@media (min-width: 800px) {
     ul{
         margin: 0;
         padding: 0;
