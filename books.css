@@ -69,7 +69,10 @@ a:visited{
     width: 4vh;
     padding: .2%;
     }
-
+    
+    #instructions{
+        display: none;
+    }
 }
 
 @media screen and (min-device-width: 901px) {
@@ -125,5 +128,21 @@ a:visited{
         position: relative;
         text-align: center;
         width: 100%;
+    }
+    
+    #instructions{
+        padding-left: 10%;
+        width: 100%;
+        height: 7%;
+        position: absolute;
+        bottom: 0;
+       }
+    
+    .instruc{
+        width: 25%;
+    }
+    
+    #hand{
+        width: 15%;
     }
 }
