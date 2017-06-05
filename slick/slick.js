@@ -1241,7 +1241,7 @@
         var _ = this;
 
         if (!$(_.$slider).hasClass('slick-initialized')) {
-
+            $("#section2").css("display:none");
             $(_.$slider).addClass('slick-initialized');
 
             _.buildRows();
@@ -1256,6 +1256,7 @@
             _.focusHandler();
 
         }
+        $("#section2").css("display:all");
 
         if (creation) {
             _.$slider.trigger('init', [_]);

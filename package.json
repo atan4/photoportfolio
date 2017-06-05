@@ -45,6 +45,6 @@
     "url": "https://github.com/kenwheeler/slick/issues"
   },
   "dependencies": {
-    "jquery": ">=1.7.2"
+    "jquery": "^3.2.1"
   }
 }
