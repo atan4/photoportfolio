@@ -24,6 +24,7 @@ ul {
 .nav li{
 	list-style: none; 
 	font-size: 16px;
+	cursor: pointer;
 }
 
 .nav .name {
@@ -95,6 +96,10 @@ ul {
 	position: absolute;
 	color: white;
 	padding: 50px;
+}
+
+.disabled, .contact.disabled {
+	display: none;
 }
 
 @media screen and (max-width: 800px) {
