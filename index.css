@@ -124,6 +124,7 @@ ul {
 		width: 100%;
 		display: inline-block;
 		position: relative;
+		text-align: center;
 	}
 
 	.container-img img {
