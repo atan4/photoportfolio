@@ -127,8 +127,9 @@ ul {
 	}
 
 	.container-img img {
-		max-width: 100%;
+		width: 100%;
 		margin: 0 0 10px 0;
+    max-height: unset;
 	}
 
 	.contact.container-img h1 {
