@@ -11,10 +11,11 @@
   <div class="wrapper">
     <div class="container">
       <div class="container-nav">
-        <h1>Adrianna Tan</h1>
+        <h1>Adri Tan</h1>
         <ul class="nav">
           <li onclick="viewProjects2()">Fashioning a Sense of Self, Issue 2</li>
           <li onclick="viewProjects()">Fashioning a Sense of Self, Issue 1</li>
+          <li onclick="viewProjects3()">I Objectify Myself to Subvert Your Gaze</li>
           <li onclick="viewPortrait()">Portraits</li>
           <li onclick="viewSelf()">Self Portraits</li>
           <li onclick="viewContact()">Contact</li>
@@ -24,7 +25,7 @@
     </div>
     <div id="project" class="container-img disabled">
       <div class="scroll project-details">
-          <p class='project-details--top'><b>Fashioning a Sense of Self</b> is an attempt to reclaim and explore the identities of women and non-binary people of color through photography. The images portray young women and non-binary people of color in spaces recognizant of their style and complementary to the forms created by their clothes and bodies. The project began with an all-inclusive, open invitation by which the models themselves were to decide the extent to which they would participate and how they would dress. In this way, these models of color maintained autonomy and agency over the way they are depicted.</p>
+          <p class='project-details--top'><b>Fashioning a Sense of Self</b>, Issue 1, is an attempt to reclaim and explore the identities of women and non-binary people of color through photography. The images portray young women and non-binary people of color in spaces recognizant of their style and complementary to the forms created by their clothes and bodies. The project began with an all-inclusive, open invitation by which the models themselves were to decide the extent to which they would participate and how they would dress. In this way, these models of color maintained autonomy and agency over the way they are depicted.</p>
           <p class='project-details--bottom'>The project is accompanied by a <b><a href="https://issuu.com/atangerinee/docs/fashioning_a_sense_of_self_pages">zine</a></b> that further examines the themes of this project through brief interviews with the participants on their relationship to style and fashion.</p>
       </div>
       <img class="scroll" src="./imgs/project-5.jpg"
@@ -150,7 +151,7 @@
     </div>
     <div id="project2" class="container-img">
       <div class="scroll project-details">
-          <p class='project-details--top'><b>Fashioning a Sense of Self</b> is an attempt to reclaim and explore the identities of women and non-binary people of color through photography. The images portray young women and non-binary people of color in spaces recognizant of their style and complementary to the forms created by their clothes and bodies. The project began with an all-inclusive, open invitation by which the models themselves were to decide the extent to which they would participate and how they would dress. In this way, these models of color maintained autonomy and agency over the way they are depicted.</p>
+          <p class='project-details--top'><b>Fashioning a Sense of Self</b>, Issue 2, is an attempt to reclaim and explore the identities of women and non-binary people of color through photography. The images portray young women and non-binary people of color in spaces recognizant of their style and complementary to the forms created by their clothes and bodies. The project began with an all-inclusive, open invitation by which the models themselves were to decide the extent to which they would participate and how they would dress. In this way, these models of color maintained autonomy and agency over the way they are depicted.</p>
           <p class='project-details--bottom'>Each portrait was the product of an organic, collaborative experience. Over time, and even through the Covid-19 pandemic, a community of diverse individuals emerged, challenging the white-washed fashion media industry that continues to benefit from the oppression and exclusion of non-white bodies.</p>
           <p class='project-details--bottom'>The zine accompaniment is not yet available online.</p>
       </div>
@@ -254,6 +255,49 @@
               ./imgs/project2-large-2.jpg"
         sizes="(max-width: 500px) 500px,
               100vw">
+    </div>
+
+    <div id="project3" class="container-img disabled">
+      <div class="scroll project-details">
+        <p class='project-details--top'><b>I Objectify Myself to Subvert Your Gaze</b> confronts the sexual objectification and fetishization of East and Southeast Asian people. In response to my experiences at the intersection of racism and misogyny as a non-binary Malaysian-Chinese American, I design my own method of objectification to circumvent the gaze of the oppressor in the form of digital textiles.</p>
+        <p class='project-details--bottom'>This zine contains photographs of East and Southeast Asian participants of marginalized genders digitally manipulated into abstract, sometimes kaleidoscopic, patterns until the original body cannot be distinguished nor sexualized.</p>
+        <p class='project-details--bottom'>These textile designs serve as a mediator between the participants and the audience—In objectifying themselves first, they reclaim power over the perception of their own body and identity. Participants are encouraged to move freely during the photo sessions, exploring the lines and shapes of their limbs that make up each pose rather than focusing on how their body will look and be perceived under anyone’s gaze.</p>
+      </div>
+      <img class="scroll" src="./imgs/project3-1.jpg"
+      srcset="./imgs/project3-1.jpg 500w,
+            ./imgs/project3-1.jpg"
+      sizes="(max-width: 500px) 500px,
+            100vw">
+      <img class="scroll" src="./imgs/project3-2.jpg"
+      srcset="./imgs/project3-2.jpg 500w,
+            ./imgs/project3-2.jpg"
+      sizes="(max-width: 500px) 500px,
+            100vw">
+      <img class="scroll" src="./imgs/project3-3.jpg"
+      srcset="./imgs/project3-3.jpg 500w,
+            ./imgs/project3-3.jpg"
+      sizes="(max-width: 500px) 500px,
+            100vw">
+      <img class="scroll" src="./imgs/project3-4.jpg"
+      srcset="./imgs/project3-4.jpg 500w,
+            ./imgs/project3-4.jpg"
+      sizes="(max-width: 500px) 500px,
+            100vw">
+      <img class="scroll" src="./imgs/project3-5.jpg"
+      srcset="./imgs/project3-5.jpg 500w,
+            ./imgs/project3-5.jpg"
+      sizes="(max-width: 500px) 500px,
+            100vw">
+      <img class="scroll" src="./imgs/project3-6.jpg"
+      srcset="./imgs/project3-6.jpg 500w,
+            ./imgs/project3-6.jpg"
+      sizes="(max-width: 500px) 500px,
+            100vw">
+      <img class="scroll" src="./imgs/project3-7.jpg"
+      srcset="./imgs/project3-7.jpg 500w,
+            ./imgs/project3-7.jpg"
+      sizes="(max-width: 500px) 500px,
+            100vw">
     </div>
 
     <div id="portrait" class="container-img disabled"">
@@ -394,68 +438,93 @@
   </div>
   <script>
     function viewProjects() {
-      var portrait = document.getElementById("portrait");
-      portrait.classList.add("disabled");
-      var project2 = document.getElementById("project2");
-      project2.classList.add("disabled");
-      var self = document.getElementById("self");
-      self.classList.add("disabled");
       var contact = document.getElementById("contact");
       contact.classList.add("disabled");
+      var portrait = document.getElementById("portrait");
+      portrait.classList.add("disabled");
       var project = document.getElementById("project");
       project.classList.remove("disabled");
+      var project2 = document.getElementById("project2");
+      project2.classList.add("disabled");
+      var project3 = document.getElementById("project3");
+      project3.classList.add("disabled");
+      var self = document.getElementById("self");
+      self.classList.add("disabled");
       window.scrollTo(0, 0);
     }
     function viewProjects2() {
-      var portrait = document.getElementById("portrait");
-      portrait.classList.add("disabled");
-      var project2 = document.getElementById("project2");
-      project2.classList.remove("disabled");
-      var self = document.getElementById("self");
-      self.classList.add("disabled");
       var contact = document.getElementById("contact");
       contact.classList.add("disabled");
+      var portrait = document.getElementById("portrait");
+      portrait.classList.add("disabled");
       var project = document.getElementById("project");
       project.classList.add("disabled");
+      var project2 = document.getElementById("project2");
+      project2.classList.remove("disabled");
+      var project3 = document.getElementById("project3");
+      project3.classList.add("disabled");
+      var self = document.getElementById("self");
+      self.classList.add("disabled");
+      window.scrollTo(0, 0);
+    }
+    function viewProjects3() {
+      var contact = document.getElementById("contact");
+      contact.classList.add("disabled");
+      var portrait = document.getElementById("portrait");
+      portrait.classList.add("disabled");
+      var project = document.getElementById("project");
+      project.classList.add("disabled");
+      var project2 = document.getElementById("project2");
+      project2.classList.add("disabled");
+      var project3 = document.getElementById("project3");
+      project3.classList.remove("disabled");
+      var self = document.getElementById("self");
+      self.classList.add("disabled");
       window.scrollTo(0, 0);
     }
     function viewSelf() {
-      var portrait = document.getElementById("portrait");
-      portrait.classList.add("disabled");
-      var project2 = document.getElementById("project2");
-      project2.classList.add("disabled");
       var contact = document.getElementById("contact");
       contact.classList.add("disabled");
-      var self = document.getElementById("self");
-      self.classList.remove("disabled");
+      var portrait = document.getElementById("portrait");
+      portrait.classList.add("disabled");
       var project = document.getElementById("project");
       project.classList.add("disabled");
+      var project2 = document.getElementById("project2");
+      project2.classList.add("disabled");
+      var project3 = document.getElementById("project3");
+      project3.classList.add("disabled");
+      var self = document.getElementById("self");
+      self.classList.remove("disabled");
       window.scrollTo(0, 0);
     }
     function viewPortrait() {
-      var self = document.getElementById("self");
-      self.classList.add("disabled");
-      var project2 = document.getElementById("project2");
-      project2.classList.add("disabled");
       var contact = document.getElementById("contact");
       contact.classList.add("disabled");
       var portrait = document.getElementById("portrait");
       portrait.classList.remove("disabled");
+      var project2 = document.getElementById("project2");
+      project2.classList.add("disabled");
       var project = document.getElementById("project");
       project.classList.add("disabled");
+      var project3 = document.getElementById("project3");
+      project3.classList.add("disabled");
+      var self = document.getElementById("self");
+      self.classList.add("disabled");
       window.scrollTo(0, 0);
     }
     function viewContact() {
-      var portrait = document.getElementById("portrait");
-      portrait.classList.add("disabled");
-      var project2 = document.getElementById("project2");
-      project2.classList.add("disabled");
-      var self = document.getElementById("self");
-      self.classList.add("disabled");
       var contact = document.getElementById("contact");
       contact.classList.remove("disabled");
+      var portrait = document.getElementById("portrait");
+      portrait.classList.add("disabled");
       var project = document.getElementById("project");
       project.classList.add("disabled");
+      var project2 = document.getElementById("project2");
+      project2.classList.add("disabled");
+      var project3 = document.getElementById("project3");
+      project3.classList.add("disabled");
+      var self = document.getElementById("self");
+      self.classList.add("disabled");
       window.scrollTo(0, 0);
     }
   </script>
