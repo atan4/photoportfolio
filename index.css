@@ -175,4 +175,8 @@ ul {
       max-width: 500px;
     }
   }
+
+  #project4 .container-img {
+    display: block;
+  }
 }
