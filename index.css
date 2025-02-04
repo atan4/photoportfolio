@@ -176,7 +176,7 @@ ul {
     }
   }
 
-  #project4 .container-img {
+  #project4.container-img {
     display: block;
   }
 }
