@@ -109,6 +109,16 @@ ul {
   .project-details--top {
     width: 500px;
   }
+
+  #product-component-1738357924336 {
+    width: 80%;
+    height: auto;
+    padding: 30px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
 @media screen and (max-width: 800px) {
@@ -156,5 +166,13 @@ ul {
   .project-details--top,
   .project-details--bottom {
     max-width: 500px;
+  }
+
+  #product-component-1738357924336 {
+    padding: 0 15px;
+
+    img {
+      max-width: 500px;
+    }
   }
 }
